@@ -18,6 +18,7 @@ runApp()
 docker pull brianzcs/dockerhub:ml-challenge
 docker run -d --rm -p 3838:3838 ml-challenge
 ```
+Then the web page will be available at localhost:3838
 
 # More past ML project
 Because the challenge has limited input (only date as predictor), I will list more of my ML projects to show my ML skills.
@@ -39,4 +40,3 @@ https://github.com/BrianZCS/RL_game
 docker load -i ml-challenge.tar
 docker run -d --rm -p 3838:3838 ml-challenge
 ```
-Then the web page will be available at localhost:3838

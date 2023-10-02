@@ -16,6 +16,7 @@ runApp()
 # Pull my docker file
 ```
 docker pull brianzcs/dockerhub:ml-challenge
+docker run -d --rm -p 3838:3838 ml-challenge
 ```
 
 # More past ML project
